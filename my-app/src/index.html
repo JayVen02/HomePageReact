@@ -7,6 +7,7 @@
   <title>HomePage</title>
 </head>
 <body>
+
   <div class = "nav">
   <nav>
     <a href = "">Facebook</a>
@@ -14,13 +15,20 @@
     </div>
     <p class = "con">"Phone Number"</p>
     <hr>
+      <select class = "language">
+        <option>Language</option>
+        <option>English</option>
+        <option>Japanese</option>
+        <option>Cebuano</option>
+        <option>Spanish</option>
+      </select>
   </nav>
 
 <div class = "Top">
    <nav>
-    <a href = " ">Home</a>
-    <a href =  "#intro">About</a>
-    <a href = "#instruction">how it Works?</a>
+    <a class = "home" href = " ">Home</a>
+    <a class = "aboutNav" href = "#intro">About</a>
+    <a class = "instru" href = "#instruction">how it Works?</a>
    </nav>
 </div>  
 
@@ -28,18 +36,18 @@
   <img src = "d.jpg" height = "400" width = "900">
 </div>
   
-<div id = "intro" class = "introduction">
-  <div class = "Info">
-  <p class="about">About</p>
-  <p class = "text">Welcome the first Afghan Globally established Marriage agency, we are based in Canada and are connected with major Afghan Communities around the world to find you the perfect match based on your preferences<br> when it comes to religion ethnicity and location, please watch the video on the right and let me introduce my self.</p>
-</div>
-  <div class = "video">
-  <video controls>
-    <source src="42.mp4" type="video/mp4">
-    <source src="42.ogg" type="video/ogg">
-    Your browser does not support the video tag.
-  </video>
-</div>
+<div class="about-video-wrapper">
+  <div class="info">
+    <p class="about">About</p>
+    <p class="text">Welcome the first Afghan Globally established Marriage agency,we are based in Canada and are connected with major Afghan Communities around the world to find you the perfect match based on your preferences when it comes to religion ethnicity and location, please watch the video on the right and let me introduce my self.</p>
+  </div>
+  <div class="video">
+    <video controls>
+      <source src="42.mp4" type="video/mp4">
+      <source src="42.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </div>
 
 <div id = "instruction" class = "HowItWorks">
@@ -56,16 +64,15 @@
   <div id = "contact" class = "contactInfo">
     <h4>AfgMarriage</h4>
     <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Email</li>
-      <li>Phone Number:</li>
-      <li>Office:</li>
+      <li >Home</li>
+      <li >About</li>
+      <li >Contact</li>
+
+      <li >Email</li>
+      <li >Phone Number:</li>
+      <li >Office:</li>
     </ul>
+    <p class = "footer"> 2023 @ Privacy policy</p>
   </div>
 </body>
-<footer>
-  <p> 2023 @ Privacy policy</p>
-</footer>
 </html>
