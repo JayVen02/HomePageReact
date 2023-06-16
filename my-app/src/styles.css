@@ -4,17 +4,16 @@ body{
   margin: 2;
 }
 
-.Top, .Section1, .Intro, .Navigation{
+.Top, .Section1, .introduction, .nav{
   text-align: center;
 }
 
-.Navigation{
+.nav{
   text-align: left;
 }
 
 video{
-  text-align: center;
-  margin-left: 50%;
+  float: right;
   width: 700px;
   height: 360px;
 }
@@ -29,7 +28,8 @@ video{
   line-height: 36px;
 }
 
-.info{
-  width: 400px;
-  height: 200px;
+.text, .about{
+  text-align: left;
+  width: 500px;
+  /* height: 200px; */
 }
